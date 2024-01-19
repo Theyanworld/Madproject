@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:background="@drawable/gradient_background"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="40dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="60sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Net"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="40sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Worth"
+                />
+
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:src="@drawable/money"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="100dp"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_marginRight="52dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Enter Your net Worth"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="20dp"
+
+            />
+        <androidx.cardview.widget.CardView
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            >
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/inputshape"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="Type Here"
+                android:id="@+id/etNetWorth"
+                android:padding="16dp"
+
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btn2"
+        android:text="Finished"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+
+
+        android:id="@+id/btnFinished"
+        android:drawableRight="@drawable/baseline_arrow_right_24"
+        android:textSize="20dp"
+        android:padding="16dp"
+
+
+
+        />
+</LinearLayout>

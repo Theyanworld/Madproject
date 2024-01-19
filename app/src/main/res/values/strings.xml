@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Kharcha_Application</string>
+    <string name="description">Lorem Ipsum is simply dummy
+        text of the printing
+        and typesetting industry.
+        Lorem Ipsum has</string>
+    <string name="textDes">is based on the Greek with the first letter in the word “Europe” and with 2 parallel lines be signifying stability. The ISO sample text will
+code for the euro is EUR. This is used when referring to euro amounts without using the symbol.</string>
+    <string name="A">Doesn’t have an account?</string>
+    <string name="B">Already have an account?</string>
+</resources>
